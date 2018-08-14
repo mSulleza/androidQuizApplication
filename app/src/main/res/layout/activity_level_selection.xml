@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelSelection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.17"
+            android:layout_margin="0dp"
+            android:background="@drawable/home_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.791"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.524" />
+
+        <Button
+            android:id="@+id/level_1_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.17"
+            android:layout_margin="0dp"
+            android:background="@drawable/level_1_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/level_2_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.17"
+            android:layout_margin="0dp"
+            android:background="@drawable/level_2_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/level_3_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.17"
+            android:layout_margin="0dp"
+            android:background="@drawable/level_3_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.72"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.696" />
+
+        <Button
+            android:id="@+id/level_4_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.17"
+            android:layout_margin="0dp"
+            android:background="@drawable/level_4_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.279"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.696" />
+
+        <Button
+            android:id="@+id/level_5_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.17"
+            android:layout_margin="0dp"
+            android:background="@drawable/level_5_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.176"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
